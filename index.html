@@ -19,54 +19,63 @@
 
     <!-- CSS -->
     <link rel="stylesheet" href="./css/style.css">
+
+    <!-- JavaScript -->
+    <script src="./script.js" defer></script> 
 </head>
 
 <!--HTML Section starts-->
 <body>
     <section id = "all">
         <div class = "container">
-            <div class = "row">
-                <!--   Profile and navigation -->
-                <div class = "col-lg-3 col-sm-12">
-                    <div class="main-box">
-                        <div class="profile-and-navigation-box">
-                            <div class="row">
-                                <div class = "col-lg-12 col-sm-12">
-                                    <div class="profile-box">
-                                        <div class="row">
-                                            <div class="col-lg-12 col-sm-3 col-3">
-                                                <img src ="./images/image-jeremy.png">
-                                            </div>
-                                            <div class="col-lg-12 col-sm-9 col-9">
-                                                <div class="description">
-                                                    <h6 class="text-white p-0">Report for</h6>
-                                                    <h1 id ="user-name">Jeremy Robson</h1> 
-                                                </div>   
+                <div class = "row">
+                    <!--   Profile and navigation -->
+                    <div class = "col-lg-3 col-sm-12">
+                        <div class="main-box">
+                            <div class="profile-and-navigation-box">
+                                <div class="row">
+                                    <div class = "col-lg-12 col-sm-12">
+                                        <div class="profile-box">
+                                            <div class="row">
+                                                <div class="col-lg-12 col-sm-3 col-3">
+                                                    <img src ="./images/image-jeremy.png">
+                                                </div>
+                                                <div class="col-lg-12 col-sm-9 col-9">
+                                                    <div class="description">
+                                                        <h6 class="text-white p-0">Report for</h6>
+                                                        <h1 id ="user-name">Jeremy Robson</h1> 
+                                                    </div>   
+                                                </div>
                                             </div>
                                         </div>
                                     </div>
-                                </div>
-                            
-                                <div class = "col-lg-12 col-sm-12">
-                                    <div class="navigation-box">
-                                        <ul>
-                                            <li>Daily</li>
-                                            <li>Weekly</li>
-                                            <li>Monthly</li>
-                                        </ul>
+                                
+                                    <div class = "col-lg-12 col-sm-12">
+                                        <div class="navigation-box">
+                                            <ul>
+                                                <li>
+                                                    <button class="navigation-button active">Daily</button>
+                                                </li>
+                                                <li>
+                                                    <button class="navigation-button">Weekly</button>
+                                                </li>
+                                                <li>
+                                                    <button class="navigation-button">Monthly</button>
+                                                </li>
+                                            </ul>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </div>
-                </div>
 
-                <!--   Summary  -->
-                <div class = "col-lg-9 col-sm-12" >
+                    <!--   Summary  -->
+                    <div class = "col-lg-9 col-sm-12" data-cards-container >
                     <!--    Divided by 2 section        -->
                     <div class = "row">
                         <div class = "col-lg-12 col-sm-12">
-                            <div class="row">
+                            <div class="row" data-first-cards-row>
                                 <!--        The work card        -->
                                 <div class ="col-lg-4 col-sm-12">
                                     <div class="box">
@@ -143,9 +152,10 @@
                                     </div>
                                 </div>
                             </div>
+                        </div>    
 
                             <div class = "col-lg-12 col-sm-12">
-                                <div class="row">
+                                <div class="row" data-second-cards-row>
                                     <!--        The exercise card        -->
                                     <div class ="col-lg-4 col-sm-12">
                                         <div class="box">
@@ -225,8 +235,7 @@
                         </div>
                     </div>
                 </div>
-            </div>
-        </div>
+          </div>
     </section>
 
 <div class="attribution text-white">
