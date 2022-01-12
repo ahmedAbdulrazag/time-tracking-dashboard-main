@@ -1,0 +1,257 @@
+body{
+    background-color: hsl(226, 43%, 10%);
+    font-family: 'Rubik', sans-serif;
+}
+
+#all{
+    padding-top: 120px;
+    margin-right:auto;
+    margin-left: auto;
+}
+
+@media(min-width: 280px) and (max-width:991px) {
+    #all{
+        padding-top: 30px;
+    }
+
+    .navigation-box{
+        display: flex;
+        flex-direction: column;
+    }
+
+    ul{
+        display: flex;
+        flex-direction: row;
+        justify-content:space-around;
+        padding-left: 0;
+        padding-top: 10px;
+    }
+
+    .profile-box{
+        max-height: 120px;
+    }
+
+    .profile-box img{
+        width: 80px;
+    }
+
+    .description{
+        padding: 5px 0 0 4px;
+    }
+
+    .previous{
+        display: flex;
+        justify-content: end;
+        align-items: flex-end;
+        padding-top: 7%;
+    }
+}
+
+@media (min-width: 992px){
+    #all{
+        margin: 0 100px 0 100px;
+    }
+}
+
+#user-name{
+    font-weight: 300;
+}
+
+.main-box{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    padding-bottom: 20px;
+    
+}
+
+.profile-and-navigation-box{
+    background-color: hsl(235, 46%, 20%);
+    border-radius: 10px;
+    height: 94.25%;
+    margin-bottom: 30px;
+}
+
+.profile-box{
+    padding: 25px 25px 45px 25px;
+    width: 100%;
+    height: 100%;
+    background-color:  hsl(246, 80%, 60%);
+    border-radius: 10px;
+    top: 0;
+    left: 0;
+    z-index: 9;
+    color: rgb(230, 230, 230);
+}
+
+.profile-box img{
+    border: 3px solid white;
+    border-radius: 50%;
+    margin-bottom: 30px;
+    width: 70px;
+    height: auto;
+    align-items: center;
+}
+
+.profile-box h6{
+    font-weight: 300;
+}
+
+.navigation-box{
+    width: 100%;
+}
+
+ul li{
+    color: rgb(160, 160, 160);
+    list-style-type: none;
+    padding-left: none;
+    padding-top: 15px;
+    transition: all 0.4s;
+}
+
+ul li:hover{
+    color: rgb(230, 230, 230);
+    transition: all 0.4s;
+}
+
+.box{
+    position: relative;
+    display: flex;
+    width: 100%;
+}
+
+svg{
+    float: right;
+    margin-right: 10px;
+    margin-top: -10px;
+    width: 90px;
+}
+
+.box-background-work{
+    overflow: hidden;
+    position: absolute;
+    background-color: hsl(15, 100%, 70%);
+    width: 100%;
+    height: 85%;
+    z-index: -1;
+    border-radius: 10px;
+    top: 0;
+    left: 0;
+    opacity: 0.8;
+}
+
+.box-background-play{
+    overflow: hidden;
+    position: absolute;
+    background-color: hsl(195, 74%, 62%);
+    width: 100%;
+    height: 85%;
+    z-index: -1;
+    border-radius: 10px;
+    top: 0;
+    left: 0;
+    opacity: 0.8;
+}
+
+.box-background-study{
+    overflow: hidden;
+    position: absolute;
+    background-color: hsl(348, 100%, 68%);
+    width: 100%;
+    height: 85%;
+    z-index: -1;
+    border-radius: 10px;
+    top: 0;
+    left: 0;
+    opacity: 0.8;
+}
+
+.box-background-exercise{
+    overflow: hidden;
+    position: absolute;
+    background-color: hsl(145, 58%, 55%);
+    width: 100%;
+    height: 85%;
+    z-index: -1;
+    border-radius: 10px;
+    top: 0;
+    left: 0;
+    opacity: 0.8;
+}
+
+.box-background-social{
+    overflow: hidden;
+    position: absolute;
+    background-color: hsl(264, 64%, 52%);
+    width: 100%;
+    height: 85%;
+    z-index: -1;
+    border-radius: 10px;
+    top: 0;
+    left: 0;
+    opacity: 0.8;
+}
+
+.box-background-selfcare{
+    overflow: hidden;
+    position: absolute;
+    background-color: hsl(43, 84%, 65%);
+    width: 100%;
+    height: 85%;
+    z-index: -1;
+    border-radius: 10px;
+    top: 0;
+    left: 0;
+    opacity: 0.8;
+}
+
+.box-main-content{
+    color: rgb(230, 230, 230);
+    margin-top: 42px;
+    width: 100%;
+    height: 100%;
+    padding-bottom: 23px;
+    padding-top: 10px;
+    margin-bottom: 30px;
+    z-index: 9;
+    background-color: hsl(235, 46%, 20%);
+    border-radius: 10px;
+    transition: all 0.4s;
+}
+
+.box-main-content:hover{
+    cursor: pointer;
+    background-color: hsl(235, 45%, 44%);
+    transition: all 0.4s;
+}
+
+.box-main-content h1{
+    font-weight: 300;
+}
+
+.box-main-content h6{
+    font-size: 18px;
+}
+
+.card-title{
+    padding-bottom: 10px;
+}
+
+.title-and-ellipsis{
+    display: flex;
+    justify-content: space-between;
+}
+
+#ellipsis{
+    margin-top: 15px;
+    margin-right: -40px;
+}
+
+.box-main-content h6.previous{
+    font-weight: 400;
+    font-size: 14px;
+}
+
+.attribution { font-size: 11px; text-align: center; margin-top: 30px; }
+.attribution a { color: hsl(228, 45%, 44%); }
