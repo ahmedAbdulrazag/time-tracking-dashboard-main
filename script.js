@@ -12,7 +12,7 @@ const model = {
             'Study': './icons/study.svg'
         }, 
         {
-            'Exercise': './icons/Exercise.svg'
+            'Exercise': './icons/exercise.svg'
         },
         {
             'Social': './icons/social.svg'
@@ -160,7 +160,7 @@ const view = {
             this.firstCardsRow.innerHTML += `
             <div class ="col-lg-4 col-sm-12">
                 <div class="box">
-                    <div class="box-background-${data[i].title.toLowerCase()}">
+                    <div class="box-background ${data[i].title.toLowerCase()}">
                         <img src="${svgPaths[i][data[i].title]}">   
                     </div>
 
@@ -188,7 +188,7 @@ const view = {
             this.firstCardsRow.innerHTML += `
             <div class ="col-lg-4 col-sm-12">
                 <div class="box">
-                    <div class="box-background-${(data[i]?.title.toLowerCase() == 'self care' ? 'selfcare' : data[i].title.toLowerCase())}">
+                    <div class="box-background ${(data[i]?.title.toLowerCase() == 'self care' ? 'selfcare' : data[i].title.toLowerCase())}">
                         <img src="${svgPaths[i][data[i].title]}">
                     </div>
 
