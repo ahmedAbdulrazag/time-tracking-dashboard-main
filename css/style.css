@@ -147,82 +147,40 @@ svg{
     width: 90px;  
 }
 
-.box-background-work{
+.box-background{
     overflow: hidden;
     position: absolute;
+    width: 100%;
+    height: 85%;
+    z-index: -1;
+    border-radius: 10px;
+    top: 0;
+    left: 0;
+    opacity: 0.8;
+}
+
+.work{
     background-color: hsl(15, 100%, 70%);
-    width: 100%;
-    height: 85%;
-    z-index: -1;
-    border-radius: 10px;
-    top: 0;
-    left: 0;
-    opacity: 0.8;
 }
 
-.box-background-play{
-    overflow: hidden;
-    position: absolute;
+.play{
     background-color: hsl(195, 74%, 62%);
-    width: 100%;
-    height: 85%;
-    z-index: -1;
-    border-radius: 10px;
-    top: 0;
-    left: 0;
-    opacity: 0.8;
 }
 
-.box-background-study{
-    overflow: hidden;
-    position: absolute;
+.study{
     background-color: hsl(348, 100%, 68%);
-    width: 100%;
-    height: 85%;
-    z-index: -1;
-    border-radius: 10px;
-    top: 0;
-    left: 0;
-    opacity: 0.8;
 }
 
-.box-background-exercise{
-    overflow: hidden;
-    position: absolute;
+.exercise{
     background-color: hsl(145, 58%, 55%);
-    width: 100%;
-    height: 85%;
-    z-index: -1;
-    border-radius: 10px;
-    top: 0;
-    left: 0;
-    opacity: 0.8;
 }
 
-.box-background-social{
-    overflow: hidden;
-    position: absolute;
+.social{
     background-color: hsl(264, 64%, 52%);
-    width: 100%;
-    height: 85%;
-    z-index: -1;
-    border-radius: 10px;
-    top: 0;
-    left: 0;
-    opacity: 0.8;
 }
 
-.box-background-selfcare{
-    overflow: hidden;
-    position: absolute;
+.selfcare{
     background-color: hsl(43, 84%, 65%);
-    width: 100%;
-    height: 85%;
-    z-index: -1;
-    border-radius: 10px;
-    top: 0;
-    left: 0;
-    opacity: 0.8;
 }
 
 .box-main-content{
